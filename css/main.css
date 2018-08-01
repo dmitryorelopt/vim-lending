@@ -1,5 +1,7 @@
 @import "./title.css";
 @import "./description.css";
+@import "./for-authors.css";
+
 
 body {
     margin: 0;

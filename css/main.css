@@ -2,6 +2,7 @@
 @import "./description.css";
 @import "./for-authors.css";
 @import "./for-customers.css";
+@import "./key-features.css";
 
 body {
     margin: 0;

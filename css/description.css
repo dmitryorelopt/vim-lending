@@ -48,7 +48,7 @@
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    background: #61459b url('../images/cup.svg') no-repeat center;
+    background: #61459b url('../images/description/cup.svg') no-repeat center;
 }
 
 .middle-circle_description {
@@ -107,7 +107,7 @@
     max-width: 1200px;
     height: 300px;
     width: 100%;
-    background: url('../images/image_description.png') no-repeat center;
+    background: url('../images/description/background.png') no-repeat center;
     background-size: cover;
     margin: 44px auto 0;
 }

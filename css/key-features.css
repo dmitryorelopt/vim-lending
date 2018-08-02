@@ -1,0 +1,28 @@
+.container_key-features {
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+
+.left-block_key-features, .right-block_key-features {
+    flex-grow: 1;
+}
+
+.left-block_key-features {
+    background: #43218b url("../images/key-features/background-left.svg") no-repeat left;
+    padding-top: 100px;
+}
+
+.right-block_key-features {
+    background: #43218b url("../images/key-features/background-right.svg") no-repeat right;
+    padding-top: 100px;
+    padding-left: 180px;
+}
+
+.title_key-features.block_title {
+    text-align: right;
+    margin: 0;
+    float: right;
+    line-height: 60px;
+    color: white;
+}

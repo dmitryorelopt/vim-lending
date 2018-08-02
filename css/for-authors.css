@@ -19,13 +19,8 @@
     margin: 0 auto;
 }
 
-.title_for-authors {
-    margin: 55px auto 0;
-    text-transform: uppercase;
-    font-size: 32px;
-    line-height: 1.06;
-    text-align: center;
-    color: #1f094e;
+.title_for-authors.block_title {
+    margin-top: 55px;
 }
 
 .cards_for-author {

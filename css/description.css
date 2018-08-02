@@ -88,15 +88,8 @@
     margin: 110px auto 0;
 }
 
-.title_description {
-    margin: 56px auto 0;
-    font-size: 32px;
-    color: #1f094e;
-    max-width: 1000px;
-    width: 90%;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1.06;
+.title_description.block_title {
+    margin-top: 56px;
 }
 
 .description_description {

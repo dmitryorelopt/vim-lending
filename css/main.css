@@ -1,7 +1,7 @@
 @import "./title.css";
 @import "./description.css";
 @import "./for-authors.css";
-
+@import "./for-customers.css";
 
 body {
     margin: 0;
@@ -52,4 +52,16 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.block_title {
+    font-size: 32px;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f094e;
+    margin: 0 auto;
+    text-transform: uppercase;
+    max-width: 1000px;
+    width: 90%;
 }

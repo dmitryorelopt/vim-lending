@@ -1,5 +1,6 @@
 .container_ledger {
     position: relative;
+    padding-bottom: 30px;
 }
 
 .substrate_ledger {
@@ -13,7 +14,108 @@
     width: 100%;
     max-width: 1400px;
     background-color: white;
-    padding: 70px 100px 0;
+    padding: 70px 50px 0;
     margin: -100px auto 0;
     border-radius: 20px;
+}
+
+.roadmap_ledger {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.card_ledger.content_center {
+    position:relative;
+    width: 320px;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: -10px;
+    background-color: white;
+}
+
+.description_ledger {
+    position: relative;
+    width: 280px;
+    padding: 20px 20px 10px;
+    border-radius: 20px;
+    background-color: #f5f5fa;
+}
+
+.date_ledger {
+    position: absolute;
+    left: 20px;
+    top: -17px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #1f094e;
+}
+
+.field_ledger {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    padding: 25px 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #333347;
+}
+
+.top-decoration_ledger {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.line-before-circle_ledger {
+    flex: 1;
+    height: 2px;
+    background-color: #1f094e;
+    border: solid 1px #f5f5fa;
+}
+
+.circle_ledger {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #1f094e;
+    border: solid 1px #f5f5fa;
+}
+
+.line-after-circle_ledger {
+    width: 20px;
+    height: 2px;
+    background-color: #1f094e;
+    border: solid 1px #f5f5fa;
+}
+
+.bottom-decoration_ledger {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #f5f5fa;
+}
+
+.filler_ledger {
+    flex: 1;
+}
+
+.card_ledger.with-right-border_ledger {
+    border-right: 1px solid #f5f5fa;
+}
+
+.fixed-fill_ledger {
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: white;
+    top: 0;
+    right: -1px;
 }

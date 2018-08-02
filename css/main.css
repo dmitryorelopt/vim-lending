@@ -3,6 +3,7 @@
 @import "./for-authors.css";
 @import "./for-customers.css";
 @import "./key-features.css";
+@import "./ledger.css";
 
 body {
     margin: 0;
@@ -47,6 +48,7 @@ button {
     height: 20px;
     background: url("../images/big-delimiter.svg") no-repeat center;
     background-size: 80px 20px;
+    margin: 0 auto;
 }
 
 .content_center {
@@ -61,7 +63,7 @@ button {
     letter-spacing: normal;
     text-align: center;
     color: #1f094e;
-    margin: 0 auto;
+    margin: 55px auto;
     text-transform: uppercase;
     max-width: 1000px;
     width: 90%;

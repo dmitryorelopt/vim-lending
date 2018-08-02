@@ -84,12 +84,8 @@
     left: 200px;
 }
 
-.delimiter_description {
-    margin: 110px auto 0;
-}
-
-.title_description.block_title {
-    margin-top: 56px;
+.delimiter_description.big-delimiter {
+    margin-top: 110px;
 }
 
 .description_description {

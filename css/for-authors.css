@@ -15,14 +15,6 @@
     background-size: 270px 670px;
 }
 
-.delimiter_for-authors {
-    margin: 0 auto;
-}
-
-.title_for-authors.block_title {
-    margin-top: 55px;
-}
-
 .cards_for-author {
     flex-wrap: wrap;
 }

@@ -1,6 +1,5 @@
 .container_ledger {
     position: relative;
-    padding-bottom: 30px;
 }
 
 .substrate_ledger {
@@ -8,15 +7,22 @@
     top: 100px;
     width: 100%;
     height: calc(100% - 100px);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000000);
+    opacity: 0.05;
 }
 
 .body_ledger {
+    position: relative;
     width: 100%;
     max-width: 1400px;
     background-color: white;
     padding: 70px 50px 0;
-    margin: -100px auto 0;
+    margin: -100px auto 70px;
     border-radius: 20px;
+}
+
+.title_ledger.block_title {
+    margin-bottom: 65px;
 }
 
 .roadmap_ledger {
@@ -31,7 +37,6 @@
     flex-direction: column;
     align-items: stretch;
     margin-top: -10px;
-    background-color: white;
 }
 
 .description_ledger {

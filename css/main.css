@@ -69,7 +69,7 @@ button {
 }
 
 .work_body {
-    width: 100%;
+    width: 100vw;
     max-width: 1200px;
     margin: auto;
 }

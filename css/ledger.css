@@ -12,6 +12,8 @@
 }
 
 .body_ledger {
+    width: 1400px;
+    min-width: 1400px;
     position: relative;
     background-color: white;
     padding: 70px 50px 0;
@@ -20,7 +22,7 @@
 }
 
 .title_ledger.block_title {
-    margin-bottom: 65px;
+    margin-bottom: 73px;
 }
 
 .roadmap_ledger {
@@ -31,7 +33,7 @@
 
 .card_ledger.content_center {
     position:relative;
-    width: 320px;
+    width: 295px;
     flex-direction: column;
     align-items: stretch;
     margin-top: -10px;

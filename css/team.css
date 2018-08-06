@@ -3,8 +3,8 @@
     background-color: #f5f5fa;
 }
 
-.body_team {
-    margin: 38px auto 0;
+.body_team.work_body {
+    margin: 28px auto 0;
     flex-wrap: wrap;
 }
 

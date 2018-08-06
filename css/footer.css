@@ -3,11 +3,11 @@
     padding-top: 70px;
 }
 
-.body_footer > .big-delimiter {
+.container_footer .big-delimiter {
     background: url("../images/footer/delimiter.svg") no-repeat center;
 }
 
-.body_footer > .block_title {
+.container_footer .block_title {
     color: #ffffff;
 }
 

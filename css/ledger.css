@@ -1,19 +1,18 @@
 .container_ledger {
     position: relative;
+    padding: 0 50px;
 }
 
 .substrate_ledger {
     position: absolute;
-    top: 100px;
     width: 100%;
-    height: calc(100% - 100px);
+    height: 100%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000000);
     opacity: 0.05;
 }
 
 .body_ledger {
     width: 1400px;
-    min-width: 1400px;
     position: relative;
     background-color: white;
     padding: 70px 50px 0;
@@ -32,7 +31,7 @@
 }
 
 .card_ledger.content_center {
-    position:relative;
+    position: relative;
     width: 236px;
     flex-direction: column;
     align-items: stretch;
@@ -102,7 +101,6 @@
     border: solid 1px #f5f5fa;
 }
 
-
 .after-circle_ledger {
     width: 52px;
     height: 2px;
@@ -110,4 +108,48 @@
 
 .filler_ledger {
     flex: 1;
+}
+
+@media (max-width: 1199px) {
+
+    .body_ledger {
+        width: 668px;
+    }
+
+    .body_ledger .work_body {
+        width: 100%;
+    }
+
+    .roadmap_ledger {
+        display: block;
+    }
+
+    .roadmap_ledger > div {
+        float: left;
+    }
+
+    .top-decoration_ledger {
+        display: none;
+    }
+
+    .card_ledger.content_center {
+        width: 50%;
+        margin: 0 auto 30px;
+    }
+
+    .description_ledger {
+        width: 95%;
+
+    }
+
+    .roadmap_ledger div.right-card_ledger {
+        float: right;
+        align-items: flex-end;
+    }
+
+    .roadmap_ledger:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }

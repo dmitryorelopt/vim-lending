@@ -54,6 +54,7 @@
     border-radius: 20px;
     background-color: #ffffff;
     padding: 97px 40px 30px;
+    height: calc(100% - 60px);
 }
 
 .title-card_for-authors {
@@ -139,5 +140,6 @@
     .center-card_for-authors .body-card_for-authors, .right-card_for-authors .body-card_for-authors {
         padding: 34px 40px 30px;
         margin: 20px auto 10px;
+        height: calc(100% - 30px);
     }
 }

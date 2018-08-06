@@ -35,3 +35,31 @@
     text-align: center;
     color: #000000;
 }
+
+
+@media (max-width: 1199px) {
+    .container_key-features {
+        flex-direction: column;
+        background: #43218b url("../images/title/background.svg") no-repeat 137% 93%;
+        padding: 95px 0 226px;
+        height: 100%;
+
+    }
+
+    .left-block_key-features, .right-block_key-features {
+        background: rgba(0,0,0,0);
+        clear: both;
+        padding: 0;
+    }
+
+    .left-block_key-features {
+        margin: auto;
+        font-size: 32px;
+        line-height: 1.06;
+    }
+
+    .right-block_key-features {
+        margin: 45px auto 0;
+    }
+
+}

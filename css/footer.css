@@ -1,0 +1,112 @@
+.container_footer {
+    background-color: #43218b;
+    padding-top: 70px;
+}
+
+.body_footer > .big-delimiter {
+    background: url("../images/footer/delimiter.svg") no-repeat center;
+}
+
+.body_footer > .block_title {
+    color: #ffffff;
+}
+
+.subscribe_footer {
+    width: 100%;
+    height: 60px;
+    padding: 0 100px;
+    margin: 54px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe_footer > input {
+    flex-grow: 1;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    padding: 13px 20px;
+    font-size: 22px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.subscribe_footer > input::placeholder {
+    font-size: 22px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+}
+
+.subscribe_footer > button {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+.panel_footer {
+    margin-top: 108px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 50px 0;
+}
+
+.panel_footer > .work_body {
+    color: white;
+}
+
+.left-panel_footer {
+    flex-grow: 1;
+}
+
+.center-panel_footer, .right-panel_footer {
+    width: 260px;
+}
+
+.description-panel_footer {
+    width: 260px;
+}
+
+.description-panel_footer, .block-link-panel_footer {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.link-panel_footer {
+    height: 30px;
+}
+
+.header-panel_footer {
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.88;
+}
+
+.navigation_footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.navigation_footer > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navigation_footer > div > a {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.right-navigation_footer > * {
+    margin-left: 44px;
+}

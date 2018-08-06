@@ -16,8 +16,6 @@
 
 .body_description {
     position: relative;
-    width: 100vw;
-    max-width: 1400px;
     min-height: 780px;
     border-radius: 20px;
     background-color: #ffffff;

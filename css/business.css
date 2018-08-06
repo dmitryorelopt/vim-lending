@@ -3,3 +3,11 @@
     padding-top: 70px;
     margin: 0 auto 70px;
 }
+
+
+@media (max-width: 1199px) {
+    .container_business {
+        padding-top: 0;
+    }
+
+}

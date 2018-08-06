@@ -112,8 +112,13 @@
 
 @media (max-width: 1199px) {
 
+    .title_ledger.block_title {
+        margin-bottom: 61px;
+    }
+
     .body_ledger {
         width: 668px;
+        margin: -100px auto 30px;
     }
 
     .body_ledger .work_body {

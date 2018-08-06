@@ -10,4 +10,7 @@
         padding-top: 0;
     }
 
+    .container_business .roadmap_ledger {
+        padding: 0 50px;
+    }
 }

@@ -111,3 +111,38 @@
 .right-navigation_footer > * {
     margin-left: 44px;
 }
+
+@media (max-width: 1199px) {
+    .container_footer {
+        padding-top: 60px;
+    }
+
+    .subscribe_footer {
+        padding: 0;
+    }
+
+    .subscribe_footer > button {
+        width: 200px;
+    }
+
+    .panel_footer {
+        margin-top: 60px;
+    }
+
+    .panel_footer .work_body.content_center {
+        flex-wrap: wrap;
+    }
+
+    .description-panel_footer {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .left-panel_footer {
+        width: 100%;
+    }
+
+    .center-panel_footer, .right-panel_footer {
+        width: 50%;
+    }
+}

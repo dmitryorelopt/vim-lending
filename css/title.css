@@ -1,5 +1,4 @@
 .container_title {
-    background-size: 1180px 1180px;
     background: #43218b url("../images/title/background.svg") no-repeat 50% 160px;
     padding-bottom: 260px;
 }
@@ -75,4 +74,21 @@
 .right-btn_title {
     background-color: #ff9f00;
     color: white;
+}
+
+@media (max-width: 1199px) {
+
+    .container_title {
+        background: #43218b url("../images/title/background.svg") no-repeat 50% 407px;
+        background-size: 668px 668px;
+        padding-bottom: 237px;
+    }
+
+    .title {
+        margin-top: 87px;
+    }
+
+    .delimiter_title {
+        margin: 44px auto 51px;
+    }
 }

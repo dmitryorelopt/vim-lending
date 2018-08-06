@@ -73,8 +73,8 @@ button {
     margin: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .work_body {
-        /*width: 668px;*/
+        width: 668px;
     }
 }

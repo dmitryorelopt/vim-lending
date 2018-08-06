@@ -71,3 +71,39 @@
 .rotate-5 {
     transform: rotate(5deg);
 }
+
+
+
+@media (max-width: 1199px) {
+    .container_for-customers {
+        padding-bottom: 60px;
+    }
+
+    .background_for-customers {
+        display: none;
+    }
+
+    .cards_for-customers.work_body {
+        margin: 34px auto;
+    }
+
+    .wrapper-fro-substrate_for-customers {
+        width: 100%;
+    }
+
+    .card_for-customers {
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    .substrate-card_for-customers {
+        width: 568px;
+        left: calc(50% - 284px);
+        bottom: -10px;
+    }
+
+    .rotate-5 {
+        transform: rotate(0);
+    }
+
+}

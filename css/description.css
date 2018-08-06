@@ -16,7 +16,6 @@
 
 .work_body.body_description {
     position: relative;
-    min-height: 780px;
     border-radius: 20px;
     background-color: #ffffff;
     margin: -100px auto 0;
@@ -83,7 +82,6 @@
 }
 
 .description_description {
-    height: 72px;
     margin: 40px auto 0;
     max-width: 800px;
     width: 80%;
@@ -100,4 +98,19 @@
     background: url('../images/description/background.png') no-repeat center;
     background-size: contain;
     margin: 44px auto 0;
+}
+
+
+@media (max-width: 1199px) {
+    .work_body.body_description {
+        padding: 100px 0;
+    }
+
+    .image_description {
+        height: 167px;
+    }
+
+    .container_description .block_title {
+        padding: 0 50px;
+    }
 }

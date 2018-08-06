@@ -1,0 +1,72 @@
+.container_team {
+    padding: 70px 0;
+    background-color: #f5f5fa;
+}
+
+.body_team {
+    max-width: 1200px;
+    width: 100%;
+    margin: 38px auto 0;
+    flex-wrap: wrap;
+}
+
+.card_team {
+    margin: 10px;
+    width: 280px;
+}
+
+.container-avatar_team {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: solid 5px #f5f5fa;
+    background-color: white;
+    margin: auto;
+    z-index: 3;
+}
+
+.avatar_team {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: url("../images/avatar/ava.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.body-card_team {
+    position: relative;
+    margin-top: -80px;
+    padding: 104px 30px 32px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.full-name_team {
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+    color: #333347;
+}
+
+.position_team {
+    height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    color: #333347;
+}
+
+.substrate-card_team {
+    width: 240px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.05);
+    margin: -90px auto 0;
+    z-index: 1;
+}

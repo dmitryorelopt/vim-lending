@@ -5,13 +5,11 @@
 @import "./key-features.css";
 @import "./ledger.css";
 @import "./business.css";
+@import "./team.css";
 
-body {
+* {
     margin: 0;
     padding: 0;
-}
-
-div {
     box-sizing: border-box;
 }
 

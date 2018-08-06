@@ -33,7 +33,7 @@
 
 .card_ledger.content_center {
     position:relative;
-    width: 295px;
+    width: 236px;
     flex-direction: column;
     align-items: stretch;
     margin-top: -10px;
@@ -41,7 +41,7 @@
 
 .description_ledger {
     position: relative;
-    width: 280px;
+    width: 220px;
     padding: 20px 20px 10px;
     border-radius: 20px;
     background-color: #f5f5fa;
@@ -102,25 +102,12 @@
     border: solid 1px #f5f5fa;
 }
 
-.bottom-decoration_ledger {
-    width: 100%;
-    height: 40px;
-    border-bottom: 1px solid #f5f5fa;
+
+.after-circle_ledger {
+    width: 52px;
+    height: 2px;
 }
 
 .filler_ledger {
     flex: 1;
-}
-
-.card_ledger.with-right-border_ledger {
-    border-right: 1px solid #f5f5fa;
-}
-
-.fixed-fill_ledger {
-    position: absolute;
-    width: 1px;
-    height: 10px;
-    background-color: white;
-    top: 0;
-    right: -1px;
 }

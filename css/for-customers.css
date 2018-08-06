@@ -1,11 +1,23 @@
 .container_for-customers {
+    position: relative;
     background-color: #f5f5fa;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.background_for-customers {
+    position: absolute;
+    right: -170px;
+    top: 90px;
+    width: 540px;
+    height: 670px;
+    background: url("../images/for-customers/background.png") no-repeat left;
+    background-size: 540px 670px;
+    transform: rotate(-10deg);
 }
 
 .cards_for-customers {
     max-width: 1200px;
-    margin: 65px auto;
+    margin: 45px auto;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;

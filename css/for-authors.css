@@ -7,12 +7,13 @@
 
 .background_for-authors {
     position: absolute;
-    left: 100px;
-    top: 57px;
-    width: 270px;
+    top: 145px;
+    left: -150px;
+    width: 540px;
     height: 670px;
-    background: url("../images/for-authors/background.png") no-repeat center;
-    background-size: 270px 670px;
+    background: url("../images/for-authors/background.png") no-repeat right;
+    background-size: 540px 670px;
+    transform: rotate(10deg);
 }
 
 .cards_for-author {

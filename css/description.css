@@ -14,13 +14,13 @@
     z-index: -1;
 }
 
-.body_description {
+.work_body.body_description {
     position: relative;
     min-height: 780px;
     border-radius: 20px;
     background-color: #ffffff;
     margin: -100px auto 0;
-    padding: 110px 0 70px;
+    padding: 111px 100px 69px;
 }
 
 .decoration_description {
@@ -82,11 +82,8 @@
     left: 200px;
 }
 
-.delimiter_description.big-delimiter {
-    margin-top: 110px;
-}
-
 .description_description {
+    height: 72px;
     margin: 40px auto 0;
     max-width: 800px;
     width: 80%;
@@ -98,10 +95,9 @@
 }
 
 .image_description {
-    max-width: 1200px;
     height: 300px;
     width: 100%;
     background: url('../images/description/background.png') no-repeat center;
-    background-size: cover;
+    background-size: contain;
     margin: 44px auto 0;
 }

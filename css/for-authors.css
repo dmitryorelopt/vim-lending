@@ -17,14 +17,16 @@
 }
 
 .cards_for-author {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card_for-authors {
     position: relative;
     width: 360px;
     height: 490px;
-    margin: 64px 20px 0;
+    margin: 64px 10px 0;
 }
 
 .circle_for-author {

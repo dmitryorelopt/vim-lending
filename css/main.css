@@ -69,7 +69,12 @@ button {
 }
 
 .work_body {
-    width: 100vw;
-    max-width: 1200px;
+    width: 1180px;
     margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .work_body {
+        /*width: 668px;*/
+    }
 }

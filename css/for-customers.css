@@ -15,8 +15,7 @@
     transform: rotate(-10deg);
 }
 
-.cards_for-customers {
-    max-width: 1200px;
+.cards_for-customers.work_body {
     margin: 45px auto;
     display: flex;
     justify-content: flex-start;
@@ -27,7 +26,7 @@
 
 .card_for-customers {
     position: relative;
-    width: 560px;
+    width: 550px;
     padding: 37px 40px 42px;
     border-radius: 20px;
     background-color: #5ba2f5;

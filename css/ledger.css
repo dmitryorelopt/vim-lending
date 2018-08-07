@@ -118,6 +118,7 @@
 
     .body_ledger {
         width: 668px;
+        min-width: 668px;
         margin: -100px auto 30px;
     }
 

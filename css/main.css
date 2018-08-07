@@ -78,3 +78,13 @@ button {
         width: 668px;
     }
 }
+
+@media (max-width: 699px) {
+    .work_body {
+        width: 280px;
+    }
+}
+
+@media (max-width: 699px) {
+
+}

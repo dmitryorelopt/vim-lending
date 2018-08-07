@@ -92,3 +92,38 @@
         margin: 44px auto 51px;
     }
 }
+
+@media (max-width: 699px) {
+
+    .container_title {
+        background: #43218b url("../images/title/background.svg") no-repeat 50% -31%;
+        background-size: 320px 320px;
+        padding-bottom: 220px;
+    }
+
+    .header_title > a {
+        display: none;
+    }
+
+    .title {
+        font-size: 36px;
+        margin-top: 51px;
+    }
+
+    .description_title {
+        font-size: 18px;
+        margin-top: 27px;
+    }
+
+    .delimiter_title {
+        margin: 36px auto 50px;
+    }
+
+    .buttons_title {
+        flex-wrap: wrap;
+    }
+
+    .right-btn_title {
+        margin-top: 10px;
+    }
+}

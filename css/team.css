@@ -78,3 +78,18 @@
         margin: 54px auto 0;
     }
 }
+
+
+@media (max-width: 699px) {
+    .work_body.body_team {
+        margin-top: 34px;
+    }
+
+    .container_team {
+        padding: 50px 0 51px;
+    }
+
+    .card_team {
+        margin: 5px 0;
+    }
+}

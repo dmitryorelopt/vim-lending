@@ -113,7 +113,13 @@
 
     .container_description .block_title {
         padding: 0 50px;
+        width: 100%;
     }
+
+    .description_description {
+        margin: 31px 50px;
+    }
+
 }
 
 @media (max-width: 699px) {
@@ -125,6 +131,7 @@
 
     .container_description .block_title {
         padding: 0 10px;
+        width: 100%;
     }
 
     .description_description {

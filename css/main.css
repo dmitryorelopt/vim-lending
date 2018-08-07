@@ -8,11 +8,6 @@
 @import "./team.css";
 @import "./footer.css";
 
-
-@media (max-width: 699px) {
-
-}
-
 * {
     margin: 0;
     padding: 0;

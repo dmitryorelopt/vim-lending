@@ -159,3 +159,28 @@
         clear: both;
     }
 }
+
+
+@media (max-width: 699px) {
+    .container_ledger .body_ledger {
+        margin: -170px auto 50px;
+        padding: 50px 10px 0;
+        max-width: 300px;
+        width: 300px;
+        min-width: 300px;
+    }
+
+    .title_ledger.block_title {
+        margin-bottom: 46px;
+    }
+
+    .card_ledger.content_center {
+        width: 100%;
+        margin-bottom: 27px;
+    }
+
+    .description_ledger {
+        width: 100%;
+    }
+
+}

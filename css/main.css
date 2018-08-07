@@ -8,6 +8,11 @@
 @import "./team.css";
 @import "./footer.css";
 
+
+@media (max-width: 699px) {
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -90,8 +95,4 @@ button {
         font-size: 18px;
         margin: 47px auto 0;
     }
-}
-
-@media (max-width: 699px) {
-
 }

@@ -14,3 +14,19 @@
         padding: 0 50px;
     }
 }
+
+
+@media (max-width: 699px) {
+
+    .container_business {
+        margin-bottom: 47px;
+    }
+
+    .container_business .title_ledger {
+        margin: 40px auto 46px;
+    }
+
+    .container_business .roadmap_ledger {
+        padding: 0;
+    }
+}

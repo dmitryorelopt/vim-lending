@@ -41,8 +41,7 @@
 
 .subscribe_footer > button {
     background-color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
+    font: 14px Rubik-Bold;
     text-align: center;
     color: #000000;
 }
@@ -70,9 +69,8 @@
     width: 260px;
 }
 
-.description-panel_footer, .block-link-panel_footer {
-    font-size: 16px;
-    font-weight: 300;
+.description-panel_footer, .link-panel_footer {
+    font: 16px Rubik-Light;
     line-height: 1.25;
 }
 
@@ -82,8 +80,7 @@
 
 .header-panel_footer {
     height: 30px;
-    font-size: 16px;
-    font-weight: bold;
+    font: 16px Rubik-Bold;
     line-height: 1.88;
     margin-bottom: 10px;
 }
@@ -103,8 +100,7 @@
 
 .navigation_footer > div > a {
     color: rgba(255, 255, 255, 0.4);
-    font-size: 14px;
-    font-weight: 500;
+    font: 14px Rubik-Medium;
     text-transform: uppercase;
 }
 

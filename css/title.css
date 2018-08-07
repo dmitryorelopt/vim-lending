@@ -12,6 +12,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 40px;
+    font: 14px Rubik-Bold;
 }
 
 .header_title > a.main-btn_title {
@@ -33,9 +34,8 @@
 
 .title {
     margin-top: 167px;
-    font-size: 56px;
+    font: 56px Rubik-Bold;
     color: white;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -56,6 +56,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.buttons_title button, .single-btn_title {
+    font: 14px Rubik-Bold;
 }
 
 .single-btn_title {

@@ -31,8 +31,7 @@
 
 .right-block_key-features > button {
     background-color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
+    font: 14px Rubik-Bold;
     line-height: normal;
     text-align: center;
     color: #000000;

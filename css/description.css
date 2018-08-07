@@ -21,6 +21,10 @@
     padding: 111px 100px 69px;
 }
 
+.container_description .block_title {
+    width: 1000px;
+}
+
 .decoration_description {
     position: absolute;
     width: 240px;
@@ -84,8 +88,7 @@
     margin: 40px auto 0;
     max-width: 800px;
     text-align: center;
-    font-size: 18px;
-    font-weight: 300;
+    font: 18px Rubik-Light;
     color: #333333;
     line-height: 1.33;
 }

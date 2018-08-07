@@ -59,6 +59,7 @@ button {
 
 .block_title {
     font-size: 32px;
+    font-weight: bold;
     line-height: 1.06;
     letter-spacing: normal;
     text-align: center;

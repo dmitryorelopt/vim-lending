@@ -81,8 +81,14 @@ button {
 }
 
 @media (max-width: 699px) {
+
     .work_body {
         width: 280px;
+    }
+
+    .block_title {
+        font-size: 18px;
+        margin: 47px auto 0;
     }
 }
 

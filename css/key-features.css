@@ -65,3 +65,22 @@
     }
 
 }
+
+
+
+@media (max-width: 699px) {
+
+    .container_key-features {
+        padding: 47px 0 220px;
+    }
+
+    .title_key-features.block_title {
+        width: 280px;
+        text-align: center;
+        line-height: 1.11;
+    }
+
+    .right-block_key-features {
+        margin-top: 36px;
+    }
+}
